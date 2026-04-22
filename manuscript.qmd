@@ -28,7 +28,7 @@ h2 { margin-top: 2em; }
 
 Extravehicular activity (EVA) — colloquially known as spacewalking — has been an essential component of human spaceflight since Alexei Leonov became the first person to venture outside a spacecraft in March 1965 [@nasa_eva]. Here we present a quantitative analysis of all recorded EVAs conducted by NASA and Roscosmos from 1965 to present, examining temporal trends in EVA frequency, cumulative programme milestones, duration distributions, and the contributions of individual crew members. Together, these data provide a comprehensive quantitative record of one of the most physically and technically demanding activities in human spaceflight.
 
----
+------------------------------------------------------------------------
 
 ## Introduction
 
@@ -38,7 +38,7 @@ The history of EVA reflects the broader arc of the Space Race and its aftermath.
 
 Here we analyse the complete EVA record to quantify these patterns and place them in their historical context. Figures showing EVA frequency and cumulative counts were generated using R and ggplot2; figures showing duration-based analyses were generated using Python and matplotlib. All analyses are fully reproducible; the code underlying each figure is available in the repository.
 
----
+------------------------------------------------------------------------
 
 ## Methods
 
@@ -56,9 +56,9 @@ Frequency and cumulative count analyses were conducted in R (version 4.3) using 
 
 ### Data and code availability
 
-The raw EVA dataset is publicly available from NASA at <https://www.nasa.gov/international-space-station/spacewalks/>. All analysis code, the processed dataset, and the source Quarto document used to generate this report are available at **[repository URL — to be completed]** under a **[licence — to be completed]** licence. The repository is archived at Zenodo under **[DOI — to be completed]**.
+The raw EVA dataset is publicly available from NASA at <https://www.nasa.gov/international-space-station/spacewalks/>. All analysis code, the processed dataset, and the source Quarto document used to generate this report are available at <https://github.com/felotriana1910/sPacewalkeRs_sneaky-stars> under a GNU GPL v3.0 licence. The repository is archived at Zenodo under DOI 10.5072/zenodo.491788.
 
----
+------------------------------------------------------------------------
 
 ## Results
 
@@ -98,7 +98,7 @@ EVA experience is highly concentrated among a small cohort of astronauts (@fig-t
 
 ![Top 10 astronauts by total EVA time (hours).](results/figures/fig_top_astronauts.png){#fig-top-astronauts}
 
----
+------------------------------------------------------------------------
 
 ## Discussion
 
@@ -108,7 +108,7 @@ The two national programmes differ substantially in operational character. The A
 
 Taken together, these results underscore the degree to which the modern EVA record is dominated by the ISS era. Future analyses should examine trends in EVA purpose across the historical record, and should incorporate data from emerging commercial operators as their EVA programmes mature.
 
----
+------------------------------------------------------------------------
 
 ## References
 
