@@ -8,10 +8,10 @@ import matplotlib.pyplot as plt
 import matplotlib
 import pandas as pd
 import numpy as np
+import os
 
 # Load data
-output_dir = '/home/sarah/Projects/spacewalk-analysis/results/figures/'
-
+output_dir = 'results/figures/'
 data_f = open('data/data.json', 'r')
 raw = json.load(data_f)
 data_f.close()
@@ -56,7 +56,7 @@ ax1.set_ylabel('Cumulative EVA time (hours)')
 ax1.spines['top'].set_visible(False)
 ax1.spines['right'].set_visible(False)
 plt.tight_layout()
-plt.savefig('results/figures/fig_cumulative_hours.png', dpi=150)
+plt.savefig(os.path.join(output_dir, 'fig_cumulative_hours.png'), dpi=150)
 plt.close()
 
 # --------------------------------------------------
@@ -80,7 +80,7 @@ ax2.legend()
 ax2.spines['top'].set_visible(False)
 ax2.spines['right'].set_visible(False)
 plt.tight_layout()
-plt.savefig('results/figures/fig_duration_distribution.png', dpi=150)
+plt.savefig(os.path.join(output_dir, 'fig_duration_distribution.png'), dpi=150)
 plt.close()
 
 # --------------------------------------------------
@@ -111,7 +111,7 @@ ax3.set_ylabel('Astronaut')
 ax3.spines['top'].set_visible(False)
 ax3.spines['right'].set_visible(False)
 plt.tight_layout()
-plt.savefig('results/figures/fig_top_astronauts.png', dpi=150)
+plt.savefig(os.path.join(output_dir, 'fig_top_astronauts.png'), dpi=150)
 plt.close()
 
 print("Python figures generated.")
