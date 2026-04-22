@@ -1,0 +1,22 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Plot2Publish workshop
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Felipe
+    family-names: Triana
+    email: aftr299@uowmail.edu.au
+    affiliation: University of Wollongong
+identifiers:
+  - type: doi
+    value: 10.5072/zenodo.491788
+repository-code: >-
+  https://github.com/felotriana1910/sPacewalkeRs_sneaky-stars
+license: GPL-3.0
+version: 1.0.0
+date-released: '2026-04-22'
